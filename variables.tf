@@ -19,7 +19,7 @@ default = "subnet-0ebb1058ad727cfdb"
 
 variable "sg" {
   type        = list(string)
-  default = "sg-0880cfdc546b123ba"
+  default = ["sg-0880cfdc546b123ba"]
 }
 
 variable "key" {
