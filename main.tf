@@ -1,3 +1,7 @@
+provider "aws" {
+  region     = var.region
+}
+
 module "instance_module" {
 	source  = "scalr-demo.scalr.io/acc-sscctbisjkl35b8/instance_module/aws"
 	version = "0.0.3"
