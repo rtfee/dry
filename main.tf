@@ -23,5 +23,5 @@ module "instance_module" {
 	subnet = var.subnet
 
 	# VPC
-	vpc_id = var.vpc
+	vpc_id = var.vpc_id
 }
